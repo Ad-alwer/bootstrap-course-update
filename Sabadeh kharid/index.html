@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabade kharid</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container mt-5">
+      <h3 class="fw-bold">سبد خرید</h3>
+      <div class="row mt-4">
+        <div class="col-sm-9 col-12 d-flex flex-column gap-2">
+          <div class="card ">
+            <div class="card-body">
+              <h4 class="card-title">محصول 1</h4>
+              <p class="card-subtitle text-secondary fw-600">توضیحات محصول 1</p>
+              <input
+                type="number"
+                min="0"
+                class="form-control border-0 mt-2"
+                placeholder="تعداد"
+              />
+              <div class="d-flex justify-content-between mt-2">
+                <p>قیمت: $75.00</p>
+                <p class="text-danger">تخفیف: 15%</p>
+              </div>
+              <button class="btn btn-primary">افزودن به سبد خرید</button>
+            </div>
+          </div>
+          <div class="card  ">
+            <div class="card-body">
+              <h4 class="card-title">محصول 2</h4>
+              <p class="card-subtitle text-secondary fw-600">توضیحات محصول 2</p>
+              <input
+                type="number"
+                min="0"
+                class="form-control border-0 mt-2"
+                placeholder="تعداد"
+              />
+              <div class="d-flex justify-content-between mt-2">
+                <p>قیمت: $127.50</p>
+                <p class="text-danger">تخفیف: 10%</p>
+              </div>
+              <button class="btn btn-primary">افزودن به سبد خرید</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-sm-3 col-12 mt-4 ">
+          <div class="card-body">
+            <p class="fw_600">سبد خرید</p>
+            <table class="table w-100  ">
+              <tr>
+                <td>محصول 1</td>
+                <td>
+                  <span class="badge bg-primary roun rounded-circle ">1</span>
+                </td>
+                <td>
+                  <span class="badge bg-success rounded-pill w-100">$45.00</span>
+                </td>
+
+                <td><button class="btn-close"></button></td>
+              </tr>
+              <tr>
+                <td>محصول 2</td>
+                <td>
+                  <span class="badge bg-primary roun rounded-circle ">2</span>
+                </td>
+                <td >
+                  <span class="badge bg-success rounded-pill w-100  ">$127.50</span>
+                </td>
+
+                <td><button class="btn-close"></button></td>
+              </tr>
+            </table>
+          </div>
+          <div class="card-footer">
+            <p class="fw_600">جمع کل : $172.50</p>
+            <button class="btn btn-success">پرداخت</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
