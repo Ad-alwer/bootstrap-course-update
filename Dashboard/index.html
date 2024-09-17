@@ -131,7 +131,7 @@
             </a>
           </div>
 
-          <div class="position-absolute bottom-0 ">
+          <div class="position-absolute bottom-0">
             <div class="dropup">
               <button
                 data-toggle="dropdown"
@@ -299,7 +299,7 @@
                   </a>
                 </div>
 
-                <div class="position-absolute bottom-0  ">
+                <div class="position-absolute bottom-0">
                   <div class="dropup">
                     <button
                       data-toggle="dropdown"
@@ -701,8 +701,7 @@
                       </td>
                       <td class="fw-bolder">10 بهمن</td>
                       <td class="fw-bolder d-flex justify-content-center">
-                        <span
-                          class="badge bg-success rounded-pill  text-light"
+                        <span class="badge bg-success rounded-pill text-light"
                           >گذرانده شده</span
                         >
                       </td>
@@ -742,8 +741,7 @@
                         class="fw-bolder d-flex justify-content-center"
                         colspan="1"
                       >
-                        <span
-                          class="badge  bg-danger rounded-pill text-light"
+                        <span class="badge bg-danger rounded-pill text-light"
                           >گذرانده نشده</span
                         >
                       </td>
@@ -783,9 +781,7 @@
                         class="fw-bolder d-flex justify-content-center"
                         colspan="1"
                       >
-                        <span
-                          class="bg-warning rounded-pill  badge text-light"
-                        >
+                        <span class="bg-warning rounded-pill badge text-light">
                           درحال یادگیری</span
                         >
                       </td>
@@ -825,9 +821,7 @@
                         class="fw-bolder d-flex justify-content-center"
                         colspan="1"
                       >
-                        <span
-                          class="bg-info rounded-pill badge  text-light"
-                        >
+                        <span class="bg-info rounded-pill badge text-light">
                           درحال یادگیری</span
                         >
                       </td>
@@ -852,26 +846,92 @@
                   </tbody>
                 </table>
               </div>
+            </div>
 
-                <!-- Table pagination -->
-              <nav
-                aria-label="Page navigation example"
-                class="d-flex justify-content-center mt-2"
-              >
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link fw-bold text-dark" href="#">قبلی</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item active">
-                    <a class="page-link" href="#">2</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link fw-bold text-dark" href="#">بعدی</a>
-                  </li>
-                </ul>
-              </nav>
+            <!-- Table pagination -->
+            <nav
+              aria-label="Page navigation example"
+              class="d-flex justify-content-center mt-2"
+            >
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link fw-bold text-dark" href="#">قبلی</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link fw-bold text-dark" href="#">بعدی</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- User info -->
+            <div>
+              <!-- Tiltle -->
+              <h3 class="fw-bold">اطلاعات کاربر</h3>
+
+              <!-- Form -->
+              <div class="row mt-4">
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                  <label for="name" class="form-label fw-bold">نام</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="مهرشاد"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                  <label for="last" class="form-label fw-bold"
+                    >نام خانوادگی</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastname"
+                    placeholder="براتی"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                  <label for="firstname" class="form-label fw-bold"
+                    >ایمیل</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="mehrshad@gmail.com"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                  <label for="last" class="form-label fw-bold">شغل</label>
+                  <select
+                    class="form-select fw-bold"
+                    aria-label="Default select example"
+                  >
+                    <option class="fw-bold" selected value="1">دانشجو</option>
+                    <option class="fw-bold" value="2">برنامه نویس</option>
+                    <option class="fw-bold" value="3">آزاد</option>
+                    <option class="fw-bold" value="4">دیگر</option>
+                  </select>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                  <label for="img" class="form-label fw-bold">تصویر</label>
+                  <input type="file" class="form-control" id="img" />
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                  <label for="age" class="form-label fw-bold">سن</label>
+                  <input type="number" class="form-control" id="age" />
+                </div>
+              </div>
             </div>
           </div>
         </section>
