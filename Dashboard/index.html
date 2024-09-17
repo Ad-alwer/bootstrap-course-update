@@ -16,7 +16,6 @@
   <body class="overflow-hidden">
     <main class="container-fluid mt-3">
       <div class="row">
-
         <!-- Menu -->
         <aside class="col-lg-2 d-none d-lg-block position-relative min-vh-100">
           <a
@@ -341,13 +340,17 @@
             <div class="row row-gap-2 mt-4">
               <!-- progress analyze -->
               <div class="col-12 col-xl-3 col-lg-4 col-sm-6">
-                <div class="card  bg-info ">
+                <div class="card bg-info">
                   <div
                     class="card-body d-flex align-items-center justify-content-between"
                   >
                     <div class="d-flex flex-column align-items-center">
-                      <span class="text-white fw-bold fs-4 text-nowrap">پیشرفت کاربر</span>
-                      <span class="text-white fw-bold fs-4 text-nowrap">53٪</span>
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >پیشرفت کاربر</span
+                      >
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >53٪</span
+                      >
                     </div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -419,13 +422,17 @@
 
               <!-- course analyze -->
               <div class="col-12 col-xl-3 col-lg-4 col-sm-6">
-                <div class="card  bg-danger">
+                <div class="card bg-danger">
                   <div
                     class="card-body d-flex align-items-center justify-content-between"
                   >
                     <div class="d-flex flex-column align-items-center">
-                      <span class="text-white fw-bold fs-4 text-nowrap">دوره</span>
-                      <span class="text-white fw-bold fs-4 text-nowrap">10</span>
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >دوره</span
+                      >
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >10</span
+                      >
                     </div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -497,13 +504,17 @@
 
               <!-- tickets analyze -->
               <div class="col-12 col-xl-3 col-lg-4 col-sm-6">
-                <div class="card  bg-primary">
+                <div class="card bg-primary">
                   <div
                     class="card-body d-flex align-items-center justify-content-between"
                   >
                     <div class="d-flex flex-column align-items-center">
-                      <span class="text-white fw-bold fs-4 text-nowrap">مجموع تیکت ها</span>
-                      <span class="text-white fw-bold fs-4 text-nowrap">20</span>
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >مجموع تیکت ها</span
+                      >
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >20</span
+                      >
                     </div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -575,13 +586,17 @@
 
               <!-- wallet analyze -->
               <div class="col-12 col-xl-3 col-lg-4 col-sm-6">
-                <div class="card  bg-success">
+                <div class="card bg-success">
                   <div
                     class="card-body d-flex align-items-center justify-content-between"
                   >
                     <div class="d-flex flex-column align-items-center">
-                      <span class="text-white fw-bold fs-4 text-nowrap">مجموع حساب</span>
-                      <span class="text-white fw-bold fs-4 text-nowrap">0 تومان</span>
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >مجموع حساب</span
+                      >
+                      <span class="text-white fw-bold fs-4 text-nowrap"
+                        >0 تومان</span
+                      >
                     </div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -650,7 +665,171 @@
                   </div>
                 </div>
               </div>
+            </div>
 
+            <!-- Status table -->
+            <div class="mt-4">
+              <!-- Tiltle -->
+              <h3 class="fw-bold">وضعیت</h3>
+
+              <!-- Table -->
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">دوره</th>
+                      <th scope="col">مدرس</th>
+                      <th scope="col">تصویر</th>
+                      <th scope="col">شروع</th>
+                      <th scope="col">وضعیت</th>
+                      <th scope="col">درصد یادگیری</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td class="fw-bolder">بوت استرپ 5</td>
+                      <td class="fw-bolder">مهرشاد براتی</td>
+                      <td class="fw-bolder">
+                        <img
+                          src="./assets/img/user.jpg"
+                          width="35"
+                          class="rounded-circle img-fluid"
+                          alt=""
+                        />
+                      </td>
+                      <td class="fw-bolder">10 بهمن</td>
+                      <td class="fw-bolder">
+                        <span class="bg-success rounded-pill p-2 text-light">گذرانده شده</span>
+                      </td>
+                      <td class="fw-bolder">
+                        <div
+                          class="progress"
+                          role="progressbar"
+                          aria-label="Animated striped example"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          <div
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                            style="width: 100%"
+                          >
+                            100%
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">2</th>
+                      <td class="fw-bolder">جاوااسکریپت</td>
+                      <td class="fw-bolder">مهرشاد براتی</td>
+                      <td class="fw-bolder">
+                        <img
+                          src="./assets/img/user.jpg"
+                          width="35"
+                          class="rounded-circle img-fluid"
+                          alt=""
+                        />
+                      </td>
+                      <td class="fw-bolder">12 اسفند</td>
+                      <td class="fw-bolder" colspan="1">
+                        <span class="bg-danger rounded-pill p-2 text-light">گذرانده نشده</span>
+                      </td>
+                      <td class="fw-bolder">
+                        <div
+                          class="progress"
+                          role="progressbar"
+                          aria-label="Animated striped example"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          <div
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                            style="width: 10%"
+                          >
+                            0%
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">3</th>
+                      <td class="fw-bolder">پایتون</td>
+                      <td class="fw-bolder">مهرشاد براتی</td>
+                      <td class="fw-bolder">
+                        <img
+                          src="./assets/img/user.jpg"
+                          width="35"
+                          class="rounded-circle img-fluid"
+                          alt=""
+                        />
+                      </td>
+                      <td class="fw-bolder">12 اسفند</td>
+                      <td class="fw-bolder" colspan="1">
+                        <span class="bg-warning rounded-pill p-2 text-light"> درحال یادگیری</span>
+                      </td>
+                      <td class="fw-bolder">
+                        <div
+                          class="progress"
+                          role="progressbar"
+                          aria-label="Animated striped example"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          <div
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                            style="width: 30%"
+                          >
+                            30%
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">4</th>
+                      <td class="fw-bolder">سی اس اس</td>
+                      <td class="fw-bolder">مهرشاد براتی</td>
+                      <td class="fw-bolder">
+                        <img
+                          src="./assets/img/user.jpg"
+                          width="35"
+                          class="rounded-circle img-fluid"
+                          alt=""
+                        />
+                      </td>
+                      <td class="fw-bolder">12 اسفند</td>
+                      <td class="fw-bolder" colspan="1">
+                        <span class="bg-info rounded-pill p-2 text-light"> درحال یادگیری</span>
+                      </td>
+                      <td class="fw-bolder">
+                        <div
+                          class="progress"
+                          role="progressbar"
+                          aria-label="Animated striped example"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >
+                          <div
+                            class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                            style="width: 40%"
+                          >
+                            40%
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </section>
