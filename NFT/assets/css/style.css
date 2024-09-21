@@ -1,0 +1,60 @@
+/* Fonts */
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb-Black.woff') format('woff');
+
+}
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb-Regular.woff') format('woff');
+}
+
+/* Variables */
+:root{
+    --dark-blue:#07101d;
+    --orange:#ff3c00
+}
+
+/* Default style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: kalameh;
+    background-color: var(--dark-blue);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+/* Navbar styles */
+
+.active-orange,.active-orange:hover{
+    color: var(--orange);
+    border-bottom: 2px var(--orange) solid;
+}
+
+.btn-register,.btn-register:hover{
+    background-color: var(--orange);
+    
+}
+
+
