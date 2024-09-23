@@ -1,60 +1,143 @@
 /* Fonts */
 
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/kalameh/_Woff/KalamehWeb-Black.woff') format('woff');
-
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb-Black.woff") format("woff");
 }
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../fonts/kalameh/_Woff/KalamehWeb-Bold.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: kalameh;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/kalameh/_Woff/KalamehWeb-Regular.woff') format('woff');
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb-Regular.woff") format("woff");
 }
-
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Black.woff') format('woff');
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
+}
 /* Variables */
-:root{
-    --dark-blue:#07101d;
-    --orange:#ff3c00
+:root {
+  --dark-blue: #07101d;
+  --orange: #ff3c00;
 }
 
 /* Default style */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: kalameh;
-    background-color: var(--dark-blue);
+body {
+  font-family: kalameh;
+  background-color: var(--dark-blue);
 }
 
-.pointer{
-    cursor: pointer;
+.pointer {
+  cursor: pointer;
 }
-
 
 /* Navbar styles */
 
-.active-orange,.active-orange:hover{
-    color: var(--orange);
-    border-bottom: 2px var(--orange) solid;
+header::before {
+  content: "";
+  width: 904px;
+  height: 876px;
+  background-image: radial-gradient(#3d0d58 38%, #070f1c 0);
+  position: absolute;
+  filter: blur(84px);
+  opacity: 0.4;
+  right: -274px;
+  top: -273px;
+  z-index: -1;
 }
 
-.btn-register,.btn-register:hover{
-    background-color: var(--orange);
-    
+.active-orange,
+.active-orange:hover {
+  color: var(--orange);
+  border-bottom: 2px var(--orange) solid;
 }
 
+.btn-register,
+.btn-register:hover {
+  background-color: var(--orange);
+}
 
+/* Banner */
+.banner-img{
+  margin-top: 10%;
+scale: 1.1;
+}
+.banner-top-shape {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.banner-bottom-shape {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.user-counter-parent {
+  width: 260px;
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(60px);
+  position: absolute;
+  right: 30%;
+  bottom: 12%;
+}
+.banner-texts {
+  padding-top: 10%;
+  padding-right: 10%;
+}
+.banner-texts h1 {
+  font-size: 55px !important;
+}
+.banner-texts h1 span {
+  color: var(--orange);
+}
+.btn-help {
+    background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
+    height: 68px;
+
+}
+.search-box{
+    border: 1px solid var(--orange);
+    width: 395px;
+    height: 68px;
+}
+.search-box .form-control{
+    background: inherit;
+}
+
+.search-box-input:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+}
