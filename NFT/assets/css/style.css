@@ -106,7 +106,7 @@ scale: 1.1;
 .user-counter-parent {
   width: 260px;
   background-color: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(60px);
+  backdrop-filter: blur(18px);
   position: absolute;
   right: 30%;
   bottom: 12%;
@@ -124,6 +124,7 @@ scale: 1.1;
 .btn-help {
     background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
     height: 68px;
+    width: 200px;
 
 }
 .search-box{
@@ -140,4 +141,28 @@ scale: 1.1;
     box-shadow: none;
     border: none;
 
+}
+
+
+@media screen and (max-width:768px) {
+  .banner-texts h1 {
+    font-size: 40px !important;
+  }
+.banner-img{
+  margin-top: 5%;
+  scale: 1;
+  position: relative;
+  left: 15%;
+}
+  .banner-bottom-shape {
+    left: 5%;
+  }
+  .user-counter-parent{
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.02);
+
+  }
+  
+  
+  
 }
