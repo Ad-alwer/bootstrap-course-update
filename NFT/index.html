@@ -435,7 +435,7 @@
             <span class="text-white text-capitalize">wallet</span>
           </div>
         </div>
-        <div class="row my-2 ps-5 ps-lg-0">
+        <div class="row mt-3 ps-5 ps-lg-0">
           <div class="col-4 col-lg-2 mt-3 overflow-hidden">
             <div
               class="wallet-box-parent d-flex justify-content-center align-items-center p-0"
@@ -748,6 +748,339 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- Hot bids -->
+      <section class="mt-5">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex gap-3">
+            <!-- Hot SVG -->
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 81 81"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="81"
+                height="81"
+                rx="40"
+                fill="url(#paint0_linear_169_278)"
+              />
+              <path
+                d="M55.0984 38.9938C54.1884 36.9456 52.8655 35.1073 51.2125 33.5938L49.8484 32.3422C49.8021 32.3009 49.7464 32.2716 49.6861 32.2568C49.6258 32.2421 49.5628 32.2423 49.5026 32.2576C49.4425 32.2729 49.387 32.3027 49.341 32.3444C49.2951 32.3861 49.2601 32.4385 49.2391 32.4969L48.6297 34.2454C48.25 35.3422 47.5516 36.4625 46.5625 37.5641C46.4969 37.6344 46.4219 37.6532 46.3703 37.6579C46.3188 37.6625 46.2391 37.6532 46.1687 37.5875C46.1031 37.5313 46.0703 37.4469 46.075 37.3625C46.2484 34.5407 45.4047 31.3579 43.5578 27.8938C42.0297 25.0157 39.9062 22.7704 37.2531 21.2047L35.3172 20.0657C35.0641 19.9157 34.7406 20.1125 34.7547 20.4079L34.8578 22.6579C34.9281 24.1954 34.75 25.5547 34.3281 26.6844C33.8125 28.0672 33.0719 29.3516 32.125 30.5047C31.466 31.3061 30.7192 32.031 29.8984 32.6657C27.9217 34.1852 26.3144 36.1322 25.1969 38.361C24.0821 40.6092 23.5014 43.0844 23.5 45.5938C23.5 47.8063 23.9359 49.9485 24.7984 51.9688C25.6312 53.9139 26.8331 55.6793 28.3375 57.1672C29.8563 58.6672 31.6188 59.8485 33.5828 60.6688C35.6172 61.5219 37.7734 61.9532 40 61.9532C42.2266 61.9532 44.3828 61.5219 46.4172 60.6735C48.3764 59.858 50.158 58.6686 51.6625 57.1719C53.1812 55.6719 54.3719 53.9188 55.2016 51.9735C56.0628 49.9587 56.5046 47.7896 56.5 45.5985C56.5 43.311 56.0312 41.0891 55.0984 38.9938Z"
+                fill="white"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_169_278"
+                  x1="87.75"
+                  y1="40.5"
+                  x2="0.273569"
+                  y2="40.3008"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0.140625" stop-color="#FF640D" />
+                  <stop
+                    offset="0.255208"
+                    stop-color="#FE4C0B"
+                    stop-opacity="0.975119"
+                  />
+                  <stop
+                    offset="0.484375"
+                    stop-color="#FC0606"
+                    stop-opacity="0.903404"
+                  />
+                  <stop
+                    offset="0.958333"
+                    stop-color="#8212F1"
+                    stop-opacity="0.81"
+                  />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <div class="d-flex flex-column align-items-center">
+              <span class="text-white fs-4">پیشنهادهای داغ</span>
+              <span class="text-white text-capitalize">Hot Bids</span>
+            </div>
+          </div>
+          <div class="d-flex gap-2 pointer">
+            <span>مشاهده همه</span>
+            <!-- Arrow SVG-->
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 36 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.355 28.2299C14.07 28.2299 13.785 28.1249 13.56 27.8999L4.45497 18.7949C4.24575 18.5832 4.12842 18.2976 4.12842 17.9999C4.12842 17.7023 4.24575 17.4166 4.45497 17.2049L13.56 8.09993C13.995 7.66493 14.715 7.66493 15.15 8.09993C15.585 8.53493 15.585 9.25493 15.15 9.68993L6.83997 17.9999L15.15 26.3099C15.585 26.7449 15.585 27.4649 15.15 27.8999C14.94 28.1249 14.64 28.2299 14.355 28.2299Z"
+                fill="white"
+              />
+              <path
+                d="M30.7499 19.125H5.50488C4.88988 19.125 4.37988 18.615 4.37988 18C4.37988 17.385 4.88988 16.875 5.50488 16.875H30.7499C31.3649 16.875 31.8749 17.385 31.8749 18C31.8749 18.615 31.3649 19.125 30.7499 19.125Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="row mt-3 justify-content-center">
+          <div class="col-lg-4 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-center position-relative">
+                  <img
+                    src="./assets/img/Digi Boy.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div
+                    class="position-absolute d-flex flex-row-reverse gap-3 end-0 me-4 mt-3"
+                  >
+                    <div
+                      class="like-svg-parent p-2 rounded-circle d-flex justify-content-center align-items-center pointer"
+                    >
+                      <!-- Like SVG -->
+                      <svg
+                        width="32"
+                        height="32"
+                        viewBox="0 0 30 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.9998 25.8694C14.5865 25.8694 14.1865 25.8161 13.8532 25.6961C8.75984 23.9494 0.666504 17.7494 0.666504 8.58939C0.666504 3.92273 4.43984 0.136059 9.07984 0.136059C11.3332 0.136059 13.4398 1.01606 14.9998 2.58939C15.7743 1.80788 16.6966 1.18843 17.7131 0.767214C18.7295 0.345994 19.8196 0.131436 20.9198 0.136059C25.5598 0.136059 29.3332 3.93606 29.3332 8.58939C29.3332 17.7627 21.2398 23.9494 16.1465 25.6961C15.8132 25.8161 15.4132 25.8694 14.9998 25.8694ZM9.07984 2.13606C5.5465 2.13606 2.6665 5.02939 2.6665 8.58939C2.6665 17.6961 11.4265 22.7627 14.5065 23.8161C14.7465 23.8961 15.2665 23.8961 15.5065 23.8161C18.5732 22.7627 27.3465 17.7094 27.3465 8.58939C27.3465 5.02939 24.4665 2.13606 20.9332 2.13606C18.9065 2.13606 17.0265 3.08273 15.8132 4.72273C15.4398 5.22939 14.5865 5.22939 14.2132 4.72273C13.6207 3.91883 12.8472 3.26575 11.9554 2.81637C11.0636 2.36698 10.0785 2.13392 9.07984 2.13606Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="timer-parent d-flex flex-row-reverse align-items-center p-2 rounded-pill justify-content-evenly fs-4 text-white"
+                    >
+                      <span>2h</span>
+                      <span>34m</span>
+                      <span>8s</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-end text-white">
+                  <p class="card-title fs-2 mt-4 text-capitalize">Digi Boy</p>
+                  <p class="card-title fs-5">By Negar</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center w-100"
+                  >
+                    <span class="fs-5"> آخرین پیشنهاد </span>
+                    <div
+                      class="d-flex gap-2 flex-row-reverse align-items-center"
+                    >
+                      <!-- ETH SVG -->
+                      <svg
+                        width="20"
+                        height="30"
+                        viewBox="0 0 21 34"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_14748_14)">
+                          <path
+                            d="M20.4683 17.115L10.4999 23.205L0.524902 17.115L10.4999 0L20.4683 17.115ZM10.4999 25.1606L0.524902 19.0706L10.4999 33.6L20.4749 19.0706L10.4999 25.1606Z"
+                            fill="#FFBF1C"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_14748_14">
+                            <rect width="21" height="33.6" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <span class="text-white fs-5">2,78 ETH</span>
+                    </div>
+                  </div>
+                  <div class="mt-3 d-flex justify-content-center w-100">
+                    <button
+                      class="btn rounded-4 p-2 fw-bold fs-5 btn-bid text-nowrap"
+                    >
+                      پیشنهاد سریع
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-center position-relative">
+                  <img
+                    src="./assets/img/Angry Ape.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div
+                    class="position-absolute d-flex flex-row-reverse gap-3 end-0 me-4 mt-3"
+                  >
+                    <div
+                      class="like-svg-parent p-2 rounded-circle d-flex justify-content-center align-items-center pointer"
+                    >
+                      <!-- Like SVG -->
+                      <svg
+                        width="32"
+                        height="32"
+                        viewBox="0 0 30 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.9998 25.8694C14.5865 25.8694 14.1865 25.8161 13.8532 25.6961C8.75984 23.9494 0.666504 17.7494 0.666504 8.58939C0.666504 3.92273 4.43984 0.136059 9.07984 0.136059C11.3332 0.136059 13.4398 1.01606 14.9998 2.58939C15.7743 1.80788 16.6966 1.18843 17.7131 0.767214C18.7295 0.345994 19.8196 0.131436 20.9198 0.136059C25.5598 0.136059 29.3332 3.93606 29.3332 8.58939C29.3332 17.7627 21.2398 23.9494 16.1465 25.6961C15.8132 25.8161 15.4132 25.8694 14.9998 25.8694ZM9.07984 2.13606C5.5465 2.13606 2.6665 5.02939 2.6665 8.58939C2.6665 17.6961 11.4265 22.7627 14.5065 23.8161C14.7465 23.8961 15.2665 23.8961 15.5065 23.8161C18.5732 22.7627 27.3465 17.7094 27.3465 8.58939C27.3465 5.02939 24.4665 2.13606 20.9332 2.13606C18.9065 2.13606 17.0265 3.08273 15.8132 4.72273C15.4398 5.22939 14.5865 5.22939 14.2132 4.72273C13.6207 3.91883 12.8472 3.26575 11.9554 2.81637C11.0636 2.36698 10.0785 2.13392 9.07984 2.13606Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="timer-parent d-flex flex-row-reverse align-items-center p-2 rounded-pill justify-content-evenly fs-4 text-white"
+                    >
+                      <span>2h</span>
+                      <span>34m</span>
+                      <span>8s</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-end text-white">
+                  <p class="card-title fs-2 mt-4 text-capitalize">Angry Ape</p>
+                  <p class="card-title fs-5">By Farshad</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center w-100"
+                  >
+                    <span class="fs-5"> آخرین پیشنهاد </span>
+                    <div
+                      class="d-flex gap-2 flex-row-reverse align-items-center"
+                    >
+                      <!-- ETH SVG -->
+                      <svg
+                        width="20"
+                        height="30"
+                        viewBox="0 0 21 34"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_14748_14)">
+                          <path
+                            d="M20.4683 17.115L10.4999 23.205L0.524902 17.115L10.4999 0L20.4683 17.115ZM10.4999 25.1606L0.524902 19.0706L10.4999 33.6L20.4749 19.0706L10.4999 25.1606Z"
+                            fill="#FFBF1C"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_14748_14">
+                            <rect width="21" height="33.6" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <span class="text-white fs-5">2,78 ETH</span>
+                    </div>
+                  </div>
+                  <div class="mt-3 d-flex justify-content-center w-100">
+                    <button
+                      class="btn rounded-4 p-2 fw-bold fs-5 btn-bid text-nowrap"
+                    >
+                      پیشنهاد سریع
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 d-none d-lg-block">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-center position-relative">
+                  <img
+                    src="./assets/img/Virtualland.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div
+                    class="position-absolute d-flex flex-row-reverse gap-3 end-0 me-4 mt-3"
+                  >
+                    <div
+                      class="like-svg-parent p-2 rounded-circle d-flex justify-content-center align-items-center pointer"
+                    >
+                      <!-- Like SVG -->
+                      <svg
+                        width="32"
+                        height="32"
+                        viewBox="0 0 30 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.9998 25.8694C14.5865 25.8694 14.1865 25.8161 13.8532 25.6961C8.75984 23.9494 0.666504 17.7494 0.666504 8.58939C0.666504 3.92273 4.43984 0.136059 9.07984 0.136059C11.3332 0.136059 13.4398 1.01606 14.9998 2.58939C15.7743 1.80788 16.6966 1.18843 17.7131 0.767214C18.7295 0.345994 19.8196 0.131436 20.9198 0.136059C25.5598 0.136059 29.3332 3.93606 29.3332 8.58939C29.3332 17.7627 21.2398 23.9494 16.1465 25.6961C15.8132 25.8161 15.4132 25.8694 14.9998 25.8694ZM9.07984 2.13606C5.5465 2.13606 2.6665 5.02939 2.6665 8.58939C2.6665 17.6961 11.4265 22.7627 14.5065 23.8161C14.7465 23.8961 15.2665 23.8961 15.5065 23.8161C18.5732 22.7627 27.3465 17.7094 27.3465 8.58939C27.3465 5.02939 24.4665 2.13606 20.9332 2.13606C18.9065 2.13606 17.0265 3.08273 15.8132 4.72273C15.4398 5.22939 14.5865 5.22939 14.2132 4.72273C13.6207 3.91883 12.8472 3.26575 11.9554 2.81637C11.0636 2.36698 10.0785 2.13392 9.07984 2.13606Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="timer-parent d-flex flex-row-reverse align-items-center p-2 rounded-pill justify-content-evenly fs-4 text-white"
+                    >
+                      <span>2h</span>
+                      <span>34m</span>
+                      <span>8s</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-end text-white">
+                  <p class="card-title fs-2 mt-4 text-capitalize">
+                    Virtualland
+                  </p>
+                  <p class="card-title fs-5">By Amirhossein</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center w-100"
+                  >
+                    <span class="fs-5"> آخرین پیشنهاد </span>
+                    <div
+                      class="d-flex gap-2 flex-row-reverse align-items-center"
+                    >
+                      <!-- ETH SVG -->
+                      <svg
+                        width="20"
+                        height="30"
+                        viewBox="0 0 21 34"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_14748_14)">
+                          <path
+                            d="M20.4683 17.115L10.4999 23.205L0.524902 17.115L10.4999 0L20.4683 17.115ZM10.4999 25.1606L0.524902 19.0706L10.4999 33.6L20.4749 19.0706L10.4999 25.1606Z"
+                            fill="#FFBF1C"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_14748_14">
+                            <rect width="21" height="33.6" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <span class="text-white fs-5">2,78 ETH</span>
+                    </div>
+                  </div>
+                  <div class="mt-3 d-flex justify-content-center w-100">
+                    <button
+                      class="btn rounded-4 p-2 fw-bold fs-5 btn-bid text-nowrap"
+                    >
+                      پیشنهاد سریع
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
     </main>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>

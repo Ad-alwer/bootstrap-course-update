@@ -102,7 +102,7 @@ header::before {
 
 .banner-bottom-shape {
   position: absolute;
-  left: -15%;
+  left: -10%;
   bottom: 5%;
 }
 
@@ -257,3 +257,24 @@ header::before {
 .walet-box-yellow {
   border: 0.001em solid rgba(255, 187, 13, 0.3);
 }
+
+/* Hot bids */
+
+.btn-bid {
+  background-image: linear-gradient(to right, #7011ad, #bc0505, #fc630f);
+  height: 60px;
+  width: 200px;
+}
+.like-svg-parent {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(18px);
+  width: 58px;
+  height: 58px;
+}
+.timer-parent {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(18px);
+  width: 170px;
+  height: 58px;
+}
+
