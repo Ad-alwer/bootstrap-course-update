@@ -295,8 +295,7 @@ header::before {
   ) !important;
 }
 .feature-parent-red {
-  border: 1px solid #ff1f00 
-  !important;
+  border: 1px solid #ff1f00 !important;
   background-image: linear-gradient(
     107deg,
     rgba(255, 31, 0, 0.1),
@@ -315,12 +314,30 @@ header::before {
 }
 
 @media screen and (max-width: 992px) {
-  .feature-parent{
+  .feature-parent {
     width: 80vw !important;
     margin-top: 25% !important;
   }
 }
 
-
-
-
+/* Trends */
+.trend-img-parent {
+  width: 390px;
+  height: 344px;
+}
+.trend-detail-box {
+  background-color: rgba(255, 255, 255, 0.08);
+  width: 390px;
+  height: 215px;
+  z-index: -1;
+  position: relative;
+  top: -19%;
+  backdrop-filter: blur(30px);
+}
+.rounded-shadow {
+  width: 1000px;
+  height: 1200px;
+  background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0.00) 100%);
+  top: -30%;
+  right: -25%;
+}
