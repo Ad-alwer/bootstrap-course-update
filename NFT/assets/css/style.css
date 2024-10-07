@@ -428,9 +428,39 @@ header::before {
     width: 80px;
   }
 
-  .news-subtitle{
+  .news-subtitle {
     width: 400px;
-    
   }
+}
 
+/* Footer */
+.footer {
+  background-color: #091028;
+  border-top: 1px solid ;
+  border-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1)) 1 0 0 0
+}
+.iran-nft-box {
+  width: 390px;
+}
+.iran-nft-box p {
+  width: 360px;
+}
+.list-group li {
+  background-color: #091028 !important;
+}
+.footer-icons {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.footer p,
+.footer li {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-social-box {
+    width: 100%;
+  }
 }
