@@ -90,6 +90,23 @@ header::before {
   background-color: var(--orange);
 }
 
+@media screen and (max-width: 992px) {
+  .w-50 {
+    width: 100% !important;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .fs-3 {
+    font-size: 22px !important;
+  }
+  .navbar .nav-item a {
+    font-size: 14px;
+  }
+  .navbar div button span.text-nowrap {
+    font-size: 14px;
+  }
+}
 /* Banner */
 .banner-img {
   margin-top: 10%;
@@ -144,7 +161,41 @@ header::before {
   box-shadow: none;
   border: none;
 }
+@media screen and (max-width: 992px) {
+  .banner-img {
+    scale: 1;
+    margin-right: -10%;
+  }
+  .banner-texts {
+    padding-right: 8%;
+  }
+  .user-counter-parent {
+    right: 15%;
+    bottom: 19%;
+  }
+  .banner-top-shape {
+    position: absolute;
+    top: 10%;
+    right: 4%;
+  }
 
+  .banner-bottom-shape {
+    position: absolute;
+    left: 8%;
+    bottom: 5%;
+  }
+  .btn-help {
+    height: 48px;
+    width: 160px;
+  }
+  .fs-5 {
+    font-size: 14px !important;
+  }
+  .search-box {
+    width: 380px;
+    height: 48px;
+  }
+}
 @media screen and (max-width: 768px) {
   .banner-texts h1 {
     font-size: 35px !important;
@@ -169,6 +220,11 @@ header::before {
 
   header::before {
     width: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner-img {
+    scale: 1;
   }
 }
 
@@ -259,6 +315,13 @@ header::before {
   border: 0.001em solid rgba(255, 187, 13, 0.3);
 }
 
+@media screen and (max-width: 992px) {
+  .svg-wallet {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
 /* Hot bids */
 
 .btn-bid {
@@ -316,8 +379,14 @@ header::before {
 
 @media screen and (max-width: 992px) {
   .feature-parent {
-    width: 80vw !important;
     margin-top: 25% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hot-bids-parent .card {
+    height: 567px;
+    width: 358px;
   }
 }
 
@@ -436,8 +505,13 @@ header::before {
 /* Footer */
 .footer {
   background-color: #091028;
-  border-top: 1px solid ;
-  border-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1)) 1 0 0 0
+  border-top: 1px solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    )
+    1 0 0 0;
 }
 .iran-nft-box {
   width: 390px;
@@ -461,6 +535,6 @@ header::before {
 
 @media screen and (max-width: 992px) {
   .footer-social-box {
-    width: 100%;
+    width: 40%;
   }
 }
