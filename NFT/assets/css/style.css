@@ -52,7 +52,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -60,6 +59,7 @@ body {
   background-color: var(--dark-blue);
   overflow-x: hidden;
 }
+
 
 .pointer {
   cursor: pointer;
@@ -311,7 +311,6 @@ header::before {
   border: 0.001em solid rgba(255, 187, 13, 0.3);
 }
 
-
 @media screen and (max-width: 992px) {
   .svg-wallet {
     width: 40px !important;
@@ -377,6 +376,14 @@ header::before {
 @media screen and (max-width: 992px) {
   .feature-parent {
     margin-top: 25% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hot-bids-parent .card {
+    height: 567px;
+    width: 358px;
+    
   }
 }
 
