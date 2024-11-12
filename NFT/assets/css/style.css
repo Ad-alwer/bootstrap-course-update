@@ -60,7 +60,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .pointer {
   cursor: pointer;
 }
@@ -223,6 +222,11 @@ header::before {
     width: 0;
   }
 }
+@media screen and (max-width: 576px) {
+  .banner-img {
+    scale: 1;
+  }
+}
 
 /* Wallet */
 .wallet-box-parent {
@@ -383,7 +387,6 @@ header::before {
   .hot-bids-parent .card {
     height: 567px;
     width: 358px;
-    
   }
 }
 
