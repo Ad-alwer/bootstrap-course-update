@@ -1,0 +1,107 @@
+/* Fonts */
+
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb-Black.woff") format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Black.woff")
+    format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Bold.woff")
+    format("woff");
+}
+@font-face {
+  font-family: kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Regular.woff")
+    format("woff");
+}
+/* Variables */
+:root {
+  --dark-blue: #07101d;
+  --orange: #ff3c00;
+}
+
+/* Default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: kalameh;
+  background-color: var(--dark-blue);
+  overflow-x: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+
+
+
+/* Hot bids */
+
+.btn-bid {
+  background-image: linear-gradient(to right, #7011ad, #bc0505, #fc630f);
+  height: 60px;
+  width: 200px;
+}
+
+
+/* Trends */
+.trend-img-parent {
+  width: 390px;
+  height: 344px;
+}
+.trend-detail-box {
+  background-color: rgba(255, 255, 255, 0.08);
+  width: 390px;
+  height: 215px;
+  z-index: -1;
+  position: relative;
+  top: -19%;
+  backdrop-filter: blur(30px);
+}
+.rounded-shadow {
+  width: 1000px;
+  height: 1200px;
+  background: radial-gradient(
+    62.37% 62.37% at 50% 50%,
+    rgba(189, 9, 95, 0.13) 37.62%,
+    rgba(7, 15, 28, 0) 100%
+  );
+  top: -30%;
+  right: -25%;
+  z-index: -1;
+}
+
+
