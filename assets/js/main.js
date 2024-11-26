@@ -4,7 +4,7 @@ function changeLocationHandler(which) {
       window.location.href = "basket/index.html";
       break;
     case "dashboard":
-      window.location.href = "dashboard/index.html";
+      window.location.href = "Dashboard/index.html";
       break;
     case "nft":
       window.location.href = "NFT/index.html";
