@@ -25,10 +25,12 @@ I knew bootstrap but after Sabzlern updated the bootstrap course , i started obs
   <img src="https://github.com/user-attachments/assets/bb3aab5d-e088-44d5-8c2a-dfe83a83384c" width="100%">
   <img src="https://github.com/user-attachments/assets/92663965-091b-43dd-8e18-7054ffc301d2" width="100%">
   <img src="https://github.com/user-attachments/assets/207f5c6e-f7b0-45c0-ade9-0411d4a83573" width="100%">
-  
-  
 
 
+  <img src="https://github.com/user-attachments/assets/77791fb6-f1e2-4cb6-8161-932bf1f925a8" width="45%">
+  <img src="https://github.com/user-attachments/assets/89a3bf59-0523-4f91-a321-e65c1fc9d21c" width="45%">
+
+  
 
 
 
